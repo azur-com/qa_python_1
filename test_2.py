@@ -2,7 +2,6 @@ import pytest
 
 
 @pytest.fixture
-
 def browser():
     print('explorer')
 
@@ -27,6 +26,11 @@ def test_login(login_page, user):
     print(username, '3')
     assert password == 'password'
     assert username == 'username'
+    print("{a}, {b}".format(a=password,b=username))
+    print("email.my.com {} {}".format("groups", "users"))
+
+
+
 
 
 

@@ -22,3 +22,8 @@ def test_success_login_with_press_enter():
     browser.element('[id="spendings"]').should(have.text('History of Spendings'))
     #browser.quit()
 
+def run_test():
+    test_success_login()
+    test_success_login_with_press_enter()
+
+
