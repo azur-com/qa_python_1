@@ -2,16 +2,16 @@ import pytest
 
 
 @pytest.fixture
-def browser():
+def browser_x():
     print('explorer')
 
-    yield browser
+    yield browser_x
 
     print('quit browser')
     pass
 
 @pytest.fixture
-def login_page(browser):
+def login_page(browser_x):
     print('login')
     pass
 
