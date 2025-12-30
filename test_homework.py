@@ -115,3 +115,9 @@ def test_dicts():
     assert len(d) == 5
     assert list(d.keys()) == first
     assert list(d.values()) == second
+
+
+print ("test all homework")
+test_greeting()
+test_rectangle()
+test_circle()
